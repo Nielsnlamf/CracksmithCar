@@ -3,7 +3,9 @@ const scale = 1
 function createWindow () {
 	const win = new BrowserWindow({
             width: 800 * scale,
-            height: 480 * scale 
+            height: 480 * scale, 
+            autoHideMenuBar: true,
+            frame: false
         })
         //win.webContents.openDevTools()
         win.loadFile('index.html')
