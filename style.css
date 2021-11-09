@@ -1,0 +1,64 @@
+body {
+    background-color: grey;
+}
+
+.movement, .camera-movement {
+    border-radius: 20%;
+    width: 10em;
+    height: 10em;
+    margin: 0px;
+    padding: 0px;
+}
+.camera-movement {
+    justify-self: end;
+}
+.grid-container#both {
+    display: grid;
+    grid-template-columns: 9fr 12fr 9fr;
+}
+
+#moving {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#camera {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.grid-container#moving, .grid-container#camera {
+    display: grid;
+    padding: 0px;
+    grid-template: repeat(3, 1fr);
+}
+
+#forward, #c-up {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#left, #c-left {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#right, #c-right {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start:3;
+    grid-column-end:4;
+}
+
+#back, #c-down {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#shoot {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
