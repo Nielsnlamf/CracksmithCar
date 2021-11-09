@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nielsnlamf/cracksmithcar/issues"
   },
-  "homepage": "https://github.com/nielsnlamf/cracksmithcar#readme"
+  "homepage": "https://github.com/nielsnlamf/cracksmithcar#readme",
+  "devDependencies": {
+    "electron": "^15.3.1"
+  }
 }
