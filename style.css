@@ -15,6 +15,9 @@ body {
     background-color: #e8630a;
     color: #b6e1e0;
 }
+.movement:active, .camera-movement:active {
+    background-color: #ff895d;
+}
 .camera-movement {
 }
 .grid-container#both {
