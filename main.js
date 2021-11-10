@@ -5,7 +5,8 @@ function createWindow () {
             width: 800 * scale,
             height: 480 * scale, 
             autoHideMenuBar: true,
-            frame: false
+            frame: false,
+	    fullscreen: true
         })
         //win.webContents.openDevTools()
         win.loadFile('index.html')
