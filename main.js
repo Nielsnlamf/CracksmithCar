@@ -1,3 +1,4 @@
+require('electron-reload')(__dirname);
 const { app, BrowserWindow } = require('electron')
 const scale = 1
 function createWindow () {

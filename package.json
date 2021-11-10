@@ -19,5 +19,8 @@
   "homepage": "https://github.com/nielsnlamf/cracksmithcar#readme",
   "devDependencies": {
     "electron": "^15.3.1"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
   }
 }
