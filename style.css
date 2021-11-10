@@ -18,8 +18,6 @@ body {
 .movement:active, .camera-movement:active {
     background-color: #ff895d;
 }
-.camera-movement {
-}
 .grid-container#both {
     display:inline-grid;
     position: absolute;
