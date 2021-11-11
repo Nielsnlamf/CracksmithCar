@@ -8,5 +8,3 @@ window.onload=function(){
             move(item)
         })
 })}
-
-var socket = io();
